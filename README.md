@@ -2,6 +2,19 @@
 
 This is my status bar written in rust, this time, it's very similar with what I've had wrote in C, I now use it in my dwl (yes, wayland, it's 2024 lol) configuration.
 
+## Building
+
+Build using rust's `cargo` package management tool.
+```
+$ cargo build
+```
+
+## Installing
+Installing the package can be done in `/usr/local`, it's not recommended by anyway...
+```
+# cargo install --path . --root /usr/local
+```
+
 ## Usage
 For debugging to having a look at the status bar string, run it with the `-s` argument:
 ```
